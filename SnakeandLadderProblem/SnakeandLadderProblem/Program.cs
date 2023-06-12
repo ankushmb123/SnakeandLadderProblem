@@ -9,11 +9,11 @@ namespace SnakeandLadderProblem
     internal class Program
 {
     static void Main(string[] args)
-    {
-        Console.WriteLine("Welcome to Snake Ladder Program");
-        SinglePlayer Player = new SinglePlayer();
-        Player.StartPlaying();
-        Console.ReadKey();
+        {
+            Console.WriteLine("Welcome to Snake Ladder Program");
+            SinglePlayer Player = new SinglePlayer();
+            Player.StartPlaying();
+            Console.ReadKey();
+        }
     }
-}
 }
