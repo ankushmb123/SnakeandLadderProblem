@@ -38,10 +38,6 @@ namespace SnakeandLadderProblem
                         Console.WriteLine("Invalid Option");
                         break;
                 }
-                if (StartPoint < 0)
-                {
-                    StartPoint = 0;
-                }
             }
         }
     }
